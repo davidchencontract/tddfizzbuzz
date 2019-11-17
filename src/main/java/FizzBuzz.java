@@ -19,4 +19,12 @@ public class FizzBuzz {
         else
             return String.valueOf(number);
     }
+
+    public void printNumber(int printNumber){
+        for(int i = 1; i<=printNumber; i++){
+            System.out.println(numberConverter(i));
+        }
+
+    }
+
 }

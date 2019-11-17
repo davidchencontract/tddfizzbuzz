@@ -75,5 +75,10 @@ public class FizzBuzzTest {
         assertTrue("Should print error when number is <= 1", "Error".equals(resultOfLess0));
     }
 
+    @Test
+    public void testPrint(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        fizzBuzz.printNumber(0);
+    }
 
 }
